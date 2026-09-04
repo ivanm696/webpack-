@@ -190,7 +190,7 @@
     "terser": "^5.43.1",
     "three": "^0.182.0",
     "tinybench": "^5.0.0",
-    "toml": "^3.0.0",
+    "toml": "^4.2.0",
     "tooling": "webpack/tooling#v1.24.3",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.3",
