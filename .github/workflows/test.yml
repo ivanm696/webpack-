@@ -118,7 +118,7 @@ jobs:
       - run: yarn cover:unit --ci --cacheDirectory .jest-cache
 
       - name: Codecov
-        uses: codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de # v5.5.2
+        uses: codecov/codecov-action@0b35c9ecc4f0529d0eb674914510c22f85b196b4 # v7.1.0
         with:
           flags: unit
         env:
@@ -217,7 +217,7 @@ jobs:
       - run: yarn cover:merge
 
       - name: Codecov
-        uses: codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de # v5.5.2
+        uses: codecov/codecov-action@0b35c9ecc4f0529d0eb674914510c22f85b196b4 # v7.1.0
         with:
           flags: integration
         env:
